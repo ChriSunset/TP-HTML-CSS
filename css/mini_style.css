@@ -1,0 +1,221 @@
+@media screen and (max-width: 1000px) {
+  /************ IMport police de caracteres FONTS*********/
+  @import url("../fonts/LiberationSans-Bold-webfont.ttf");
+  @import url("../fonts/LiberationSans-Regular-webfont.ttf");
+
+  body {
+    margin: auto;
+    font-family: Liberation Sans-Bold;
+  }
+
+  /************************ HEADER ************************/
+  header {
+    background-color: antiquewhite;
+    height: 124px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .accueilLogin {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  /***** Logo ******/
+  .logo {
+    margin: 0;
+  }
+
+  em {
+    color: rgb(221, 185, 24);
+  }
+
+  .logo img {
+    width: 280px;
+    height: 80px;
+  }
+
+  /***** Accueil en mode connecté ******/
+  .loginUser,
+  .loginUser p,
+  .login ul {
+    float: right;
+    margin: 0;
+  }
+
+  .loginUser p {
+    padding-right: 5px;
+  }
+
+  .login ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 60px auto;
+  }
+  .login ul li {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  /******************** FIN DU HEADER ********************/
+
+  /************************ MAIN ************************/
+
+  /****** FOND COULEUR et centrer le SITE *******/
+  main {
+    background-color: rgb(65, 61, 61);
+  }
+
+  .container {
+    width: 55%;
+    margin: auto;
+    background-color: ivory;
+    text-align: center;
+  }
+
+  /* En-tete du Catalogue */
+  .gantNoir,
+  .gantRouge {
+    display: inline-block;
+    width: 370px;
+    margin: 40px;
+  }
+
+  .titreProduit {
+    text-align: center;
+    position: relative;
+    bottom: 56px;
+    left: 0px;
+    text-transform: uppercase;
+  }
+
+  /*********** Affichage du prix soldé  ***********/
+  .oldprice {
+    text-decoration: line-through;
+    font-size: 35px;
+    width: 24%;
+    margin: 10px;
+  }
+
+  .newprice {
+    color: rgb(189, 128, 15);
+    font-size: 35px;
+    width: 24%;
+    margin: 10px;
+  }
+
+  .achat {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .achat a {
+    padding: 0;
+    width: 50%;
+  }
+
+  button {
+    background-color: rgb(23, 24, 23);
+    color: floralwhite;
+    width: 150px;
+    height: 35px;
+  }
+
+  /*****************  Positionnements *****************/
+
+  /**********  titre du produit ***********/
+  .titreProduit {
+    position: relative;
+    bottom: 40px;
+    right: 336px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  /********* l'etiquette du solde *******/
+  .promo {
+    position: relative;
+    top: 40px;
+    left: 300px;
+    width: 105px;
+    height: 50px;
+    background-color: rgb(44, 42, 42);
+    color: rgb(201, 161, 32);
+    border-radius: 5px;
+    font-size: 43px;
+    text-align: center;
+  }
+
+  /******************** FIN DU MAIN *********************/
+
+  /************************ FOOTER **********************/
+  footer {
+    background-color: rgb(105, 100, 100);
+    width: 100%;
+    height: 500px;
+    margin: auto;
+  }
+
+  /***** Service client ******/
+  .sav {
+    width: 25%;
+    height: 50px;
+    background-color: rgb(76, 121, 76);
+    list-style-type: disc;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .sav ul li {
+    display: inline-block;
+  }
+
+  /***** Garantie ******/
+  .garantie {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    height: 100px;
+  }
+
+  .manual,
+  .camion,
+  .secure,
+  .valide {
+    display: flex;
+    width: 25%;
+    text-align: center;
+    height: 200px;
+    color: white;
+    margin: 50px auto;
+  } /* display inline-block pouir les quatre texte et 49% en width */
+
+  hr {
+    background-color: rgb(167, 161, 161);
+    color: rgb(167, 161, 161);
+    height: 2px;
+    width: 60%;
+    margin: 130px auto;
+  }
+
+  /***** Reseaux sociaux ******/
+  .social {
+    margin: auto;
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  .social img {
+    padding: 20px;
+  }
+
+  .social p {
+    color: white;
+  }
+
+  /******************** FIN DU FOOTER *******************/
+}
